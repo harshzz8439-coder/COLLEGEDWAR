@@ -457,24 +457,48 @@
     </section>
 
     <!-- Privacy Policy -->
-    <section id="privacy" class="py-12 bg-white/90 backdrop-blur reveal">
-      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-2xl font-bold text-cdBlue flex items-center gap-3">
-          <span class="w-1 h-6 bg-cdTeal rounded-full"></span>
-          Privacy Policy
-        </h2>
-        <div class="mt-4 space-y-4 text-gray-700">
-          <p>At <strong>CollegeDwar</strong>, we respect your privacy and are committed to protecting your personal information.</p>
-          <p>When you submit your details through our website, landing pages, or LinkedIn lead forms, we may collect information such as your <strong>name, email address, phone number, and educational preferences</strong>. This information is collected solely for the purpose of <strong>education counselling, admission guidance, and related communication</strong>.</p>
-          <p>Your information may be used to contact you via <strong>phone, email, or WhatsApp</strong> regarding <strong>MBA, Master’s, and other higher education programs</strong>, including offerings from partner universities such as <strong>NMIMS and other affiliated institutions</strong>.</p>
-          <p>We <strong>do not sell, rent, or trade</strong> your personal data to third parties. Your information is shared only with authorized internal teams or educational partners strictly for counselling and admission-related support, or when required by law.</p>
-          <p>By submitting your information on the CollegeDwar website or through any of our lead forms, you <strong>consent to this Privacy Policy</strong> and agree to be contacted for education-related guidance and updates.</p>
-          <p>If you have any questions or concerns regarding your privacy or the use of your data, you may contact us at:</p>
-          <p><strong>Email:</strong> <a href="mailto:hello@collegedwar.in" class="text-cdBlue underline">hello@collegedwar.in</a></p>
+   <footer class='border-t border-slate-200 bg-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 text-sm text-slate-700'>
+      <div class='flex flex-col gap-4'>
+        <div>
+          <h3 class='font-semibold text-slate-900'>CollegeDwar</h3>
+          <p class='text-slate-500'>© 2026 CollegeDwar. All rights reserved.</p>
+          <!-- Social (footer) -->
+          <div class='mt-2 flex items-center gap-4'>
+            <a href='https://www.instagram.com/collegedwar.in/' target='_blank' rel='noopener' aria-label='Instagram' class='text-cdPink hover:text-cdIndigo ripple'>
+              <svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm10 2H7a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3zm-5 3a5 5 0 110 10 5 5 0 010-10zm0 2a3 3 0 100 6 3 3 0 000-6zm6.5-3a1.5 1.5 0 110 3 1.5 1.5 0 010-3z'/></svg>
+            </a>
+            <a href='https://www.linkedin.com/company/college-dwar' target='_blank' rel='noopener' aria-label='LinkedIn' class='text-cdIndigo hover:text-cdBlue ripple'>
+              <svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5zM.5 8h4V23h-4zM8.5 8h3.8v2.04h.05c.53-1 1.83-2.04 3.77-2.04 4.03 0 4.78 2.65 4.78 6.1V23h-4v-7.56c0-1.8-.03-4.11-2.5-4.11-2.5 0-2.88 1.95-2.88 3.97V23h-4z'/></svg>
+            </a>
+            <a href='#' target='_blank' rel='noopener' aria-label='Facebook' class='text-cdBlue hover:text-cdIndigo ripple' title='Add your Facebook URL'>
+              <svg width='20' height='20' viewBox='0 0 24 24' fill='currentColor'><path d='M22 12a10 10 0 10-11.5 9.9v-7h-2.2v-2.9h2.2V9.7c0-2.2 1.3-3.4 3.3-3.4.9 0 1.8.2 1.8.2v2h-1c-1 0-1.3.6-1.3 1.2v1.9h2.5l-.4 2.9h-2.1v7A10 10 0 0022 12z'/></svg>
+            </a>
+          </div>
         </div>
+        <p class='text-[11px]'><strong>Privacy Policy:</strong> We value your privacy. Personal information shared with CollegeDwar is used only for counselling and enrollment services. We do not sell your data. By using our website, you consent to our data practices, including cookies for performance and analytics. You may request data access, correction, or deletion by contacting <a href='mailto:privacy@collegedwar.com' class='text-cdOrange underline'>privacy@collegedwar.com</a>. For full details, see the <a href='#' id='openPolicyFooter' class='text-cdIndigo underline'>complete policy</a>.</p>
       </div>
-    </section>
+    </div>
+  </footer>
 
+  <div id='cdPrivacyModal' class='fixed inset-0 z-50 hidden'>
+    <div class='absolute inset-0 bg-black/40' aria-hidden='true'></div>
+    <div class='relative max-w-2xl mx-auto mt-16 bg-white rounded-lg shadow-lg ring-1 ring-slate-200 p-6'>
+      <div class='flex items-start justify-between gap-4'>
+        <h3 class='text-lg font-semibold text-slate-900'>Complete Privacy Policy</h3>
+        <button id='cdClosePolicy' class='px-2 py-1 text-sm border rounded ripple'>Close</button>
+      </div>
+      <p class='mt-3 text-[12px] text-slate-700'>At <strong>CollegeDwar</strong>, we respect your privacy and are committed to protecting your personal information. When you submit details through our website or lead forms, we may collect your <strong>name</strong>, <strong>email address</strong>, <strong>phone number</strong>, and <strong>program preferences</strong>. We use this information solely for <strong>counselling</strong>, <strong>admission guidance</strong>, and related communication.</p>
+      <p class='mt-2 text-[12px] text-slate-700'>We may contact you via <strong>phone</strong>, <strong>email</strong>, or <strong>WhatsApp</strong> regarding UG and PG programs (BBA, B.Com, BA, MBA, PGDM), including offerings from partner universities. We <strong>do not sell, rent, or trade</strong> your data. Access is role‑based and limited to authorised staff and partners, or as required by law.</p>
+      <p class='mt-2 text-[12px] text-slate-700'>By submitting a form on the CollegeDwar website, you <strong>consent</strong> to receive education‑related updates. You may <strong>opt out</strong> at any time. To request deletion or access to your data, write to <a href='mailto:privacy@collegedwar.com' class='underline'>privacy@collegedwar.com</a>.</p>
+      <ul class='mt-3 list-disc pl-5 text-[12px] text-slate-700 space-y-1'>
+        <li>Data minimisation and purpose limitation.</li>
+        <li>Secure storage and role‑based access.</li>
+        <li>Opt‑out and deletion on request.</li>
+        <li>Consent‑managed communication.</li>
+      </ul>
+    </div>
+  </div>
     <!-- Footer -->
     <footer class="bg-white border-t border-gray-100 reveal" id="footer">
       <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-8 grid grid-cols-1 md:grid-cols-3 gap-6">
