@@ -1,85 +1,63 @@
-
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Privacy Policy | COLLEGEDWAR</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <meta name="robots" content="index,follow"/>
-  <meta name="description" content="Privacy Policy for COLLEGEDWAR. Learn what data we collect, how we use it, your rights, and how to contact us.">
-  <style>
-    :root{color-scheme:light;--ink:#0b1b2b;--teal:#0ea5a4;--blue:#0b3b57}
-    body{font-family:system-ui,-apple-system,"Segoe UI",Inter,Roboto,Arial,sans-serif;margin:0;color:var(--ink);line-height:1.65;background:#fff}
-    .wrap{max-width:960px;margin:0 auto;padding:2.5rem 1.25rem}
-    h1{font-size:clamp(1.9rem,2.4vw,2.35rem);margin:0 0 1rem;color:var(--blue)}
-    h2{margin-top:2rem;font-size:1.2rem;color:#0b3b57}
-    a{color:#0ea5a4;text-decoration:none} a:hover{text-decoration:underline}
-    .topbar{background:linear-gradient(120deg,#0b3b57,#0ea5a4);color:#fff;padding:.85rem 1rem;font-weight:600}
-    .updated{background:#f8fafc;border:1px solid #e2e8f0;padding:.5rem .75rem;border-radius:8px;display:inline-block}
-    ul{padding-left:1.25rem}
-    .muted{color:#475569}
-    .card{background:#fff;border:1px solid #e5e7eb;border-radius:12px;padding:1rem;margin:1rem 0;box-shadow:0 2px 10px rgba(2,6,23,.05)}
-    .footer{margin-top:3rem;font-size:.9rem;color:#334155}
-  </style>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Privacy Policy | CollegeDwar</title>
+
+  <!-- Inter font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <div class="topbar">COLLEGEDWAR — Privacy Policy</div>
-  <main class="wrap">
-    <p class="updated"><strong>Effective:</strong> 16 Jan 2026 • <strong>Last Updated:</strong> 16 Jan 2026</p>
 
-    <h1>Privacy Policy</h1>
-    <p>At <strong>COLLEGEDWAR</strong> (“we”, “us”, “our”), your privacy matters. This policy explains what personal data we collect, why we collect it, how we use and share it, and your choices. It applies to our website https://collegedwar.in/, our LinkedIn ads, and any LinkedIn Lead Gen Forms you submit.</p>
+<body class="bg-white text-gray-800 font-inter">
+  <div class="max-w-4xl mx-auto px-6 py-12">
+    
+    <h1 class="text-3xl font-bold mb-6">Privacy Policy</h1>
 
-    <div class="card muted">
-      <p><strong>Note for LinkedIn review teams:</strong> This is a dedicated privacy policy URL with clear disclosures, provided to meet LinkedIn ad and Lead Gen Form requirements on landing pages and privacy links.</p>
-    </div>
+    <p class="mb-4">
+      At <strong>CollegeDwar</strong>, accessible from https://collegedwar.in, we respect your privacy and are committed
+      to protecting your personal information.
+    </p>
 
-    <h2>1) Contact</h2>
-    <p><strong>COLLEGEDWAR</strong><br>
-       Email: privacy@collegedwar.in</p>
+    <h2 class="text-xl font-semibold mt-6 mb-2">Information We Collect</h2>
+    <p class="mb-4">
+      When you submit your details through our website or LinkedIn lead forms, we may collect personal information such as:
+      Name, Email Address, Phone Number, Educational Background, and Career Preferences.
+    </p>
 
-    <h2>2) Data we collect</h2>
-    <ul>
-      <li><strong>Information you provide</strong> (e.g., name, email, phone, program interests) via our site or LinkedIn Lead Gen Forms.</li>
-      <li><strong>Automatic data</strong> (e.g., device, browser, IP, pages viewed) via cookies or similar technologies.</li>
-      <li><strong>Lead Gen Forms</strong>: LinkedIn may pre‑fill your details and send them to us after you submit the form.</li>
+    <h2 class="text-xl font-semibold mt-6 mb-2">How We Use Your Information</h2>
+    <ul class="list-disc ml-6 mb-4">
+      <li>To provide counselling and guidance related to colleges and courses</li>
+      <li>To contact you regarding admissions, offers, and updates</li>
+      <li>To improve our services and user experience</li>
     </ul>
 
-    <h2>3) How we use data</h2>
-    <ul>
-      <li>Respond to your requests and provide information you asked for.</li>
-      <li>Operate, secure, and improve our website and campaigns (including limited analytics).</li>
-      <li>Send updates about programs/services if you opt in (you can unsubscribe any time).</li>
-      <li>Prevent misuse, ensure security, and comply with applicable law.</li>
-    </ul>
+    <h2 class="text-xl font-semibold mt-6 mb-2">Data Protection</h2>
+    <p class="mb-4">
+      We do not sell, trade, or rent users’ personal identification information to others.
+      Your data is stored securely and accessed only by authorized personnel.
+    </p>
 
-    <h2>4) Legal basis / Consent (India DPDP)</h2>
-    <p>We process personal data for lawful purposes with your <strong>consent</strong> and for certain <strong>legitimate uses</strong> permitted by law (e.g., compliance, security). You’ll receive clear notice when we collect data and can withdraw consent as easily as you gave it.</p>
+    <h2 class="text-xl font-semibold mt-6 mb-2">Third-Party Services</h2>
+    <p class="mb-4">
+      We may use trusted third-party platforms such as LinkedIn, Google, or email tools to
+      communicate with users. These platforms have their own privacy policies.
+    </p>
 
-    <h2>5) Your rights</h2>
-    <p>Subject to law, you may request: (a) access to your data, (b) correction/updating, (c) erasure, and (d) grievance redressal. To exercise these rights or withdraw consent, contact: <strong>privacy@collegedwar.in</strong>.</p>
+    <h2 class="text-xl font-semibold mt-6 mb-2">Your Consent</h2>
+    <p class="mb-4">
+      By submitting your information on our website or through our campaigns,
+      you consent to our Privacy Policy.
+    </p>
 
-    <h2>6) Children</h2>
-    <p>We don’t knowingly collect data from children under 18. Where required, we obtain verifiable parental consent and do not direct tracking or targeted ads at children.</p>
+    <h2 class="text-xl font-semibold mt-6 mb-2">Contact Us</h2>
+    <p>
+      If you have any questions about this Privacy Policy, you may contact us at:  
+      <strong>info@collegedwar.in</strong>
+    </p>
 
-    <h2>7) Sharing & transfers</h2>
-    <p>We do <strong>not sell</strong> personal data. We may share it with service providers (hosting, analytics, email) under contracts that protect your data, with advisors, or if required by law. Data may be processed outside India with appropriate safeguards.</p>
-
-    <h2>8) Retention</h2>
-    <p>We keep personal data only as long as necessary for the stated purposes or as required by law, then delete or de‑identify it.</p>
-
-    <h2>9) Security</h2>
-    <p>We implement reasonable technical and organizational measures to protect personal data (e.g., TLS encryption in transit, access controls, and logging). If a breach occurs, we will notify affected individuals and, where required, the authorities.</p>
-
-    <h2>10) Lead Gen Form disclosures</h2>
-    <p>LinkedIn may display additional consent checkboxes on forms. If a checkbox is marked “Required,” you must accept it to submit. The form will state the purposes for which we’ll use your data.</p>
-
-    <h2>11) Updates</h2>
-    <p>We may update this policy from time to time. We’ll update the “Last Updated” date and keep the latest version at this URL.</p>
-
-    <div class="footer">
-      <p>Questions or requests? Email <strong>privacy@collegedwar.in</strong>.</p>
-    </div>
-  </main>
+  </div>
 </body>
 </html>
